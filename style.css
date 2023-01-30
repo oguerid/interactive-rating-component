@@ -1,0 +1,124 @@
+@import url("https://fonts.googleapis.com/css2?family=Overpass:wght@300;700&display=swap");
+
+/* - Orange: hsl(25, 97%, 53%)
+
+### Neutral
+
+- White: hsl(0, 0%, 100%)
+- Light Grey: hsl(217, 12%, 63%)
+- Medium Grey: hsl(216, 12%, 54%)
+- Dark Blue: hsl(213, 19%, 18%)
+- Very Dark Blue: hsl(216, 12%, 8%)
+ */
+
+*,
+*::before,
+*::after {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Overpass", sans-serif;
+  background-color: hsl(216, 12%, 8%);
+  color: hsl(216, 12%, 54%);
+  line-height: 1.6;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+.main-container,
+.thank-you {
+  background-color: hsl(213, 19%, 18%);
+  padding: 1.3rem;
+  border-radius: 10px;
+}
+.star__icon {
+  padding: 0.5rem;
+  background-color: hsl(212, 14%, 27%);
+  border-radius: 50%;
+  margin-bottom: 1rem;
+}
+.main__title {
+  color: white;
+  font-size: 1.7rem;
+  margin-bottom: 1rem;
+}
+.main__info {
+  max-width: 300px;
+  font-size: 0.9rem;
+  margin-bottom: 1rem;
+  font-weight: 100;
+}
+.rating-area {
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  margin-bottom: 1.5rem;
+}
+.rating-icon {
+  background: hsl(212, 15%, 27%);
+  height: 40px;
+  width: 40px;
+  border: 0;
+  border-radius: 50%;
+  color:hsl(217, 12%, 63%) ;
+}
+.rating-icon:hover{
+    background-color: hsl(25, 97%, 53%);
+    color: white;
+}
+.rating-icon:focus{
+    background-color: hsl(217, 12%, 63%);
+    color: white;
+}
+.btn{
+    width: 100%;
+    background-color: hsl(25, 97%, 53%);
+    border: 0;
+    padding: 0.8rem;
+    border-radius: 30px;
+    color: white;
+    text-transform: uppercase;
+    letter-spacing: 1.4px;
+    font-family: inherit;
+    transition: 0.4s;
+}
+.btn:hover{
+    background-color: white;
+    color: hsl(25, 97%, 53%) ;
+}
+.thank-you{
+    text-align: center;
+}
+.thank-you__title{
+    background-color: hsl(212, 15%, 27%) ;
+    width: 180px;
+    margin: 1rem auto;
+    padding: 0.2rem 0 0 0;
+    border-radius: 30px;
+    color:hsl(25, 97%, 53%);
+}
+
+.thanks{
+    color: white;
+}
+.thank-you__info{
+    max-width: 300px;
+    font-weight: 400;
+}
+
+
+.thank-you--hidden{
+    display: none;
+}
+.main-container--active{
+    display: none;
+
+}
+
