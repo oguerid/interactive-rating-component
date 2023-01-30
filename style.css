@@ -68,11 +68,12 @@ body {
   border: 0;
   border-radius: 50%;
   color:hsl(217, 12%, 63%) ;
-  cursor: pointer;
+  
 }
 .rating-icon:hover{
     background-color: hsl(25, 97%, 53%);
     color: white;
+    cursor: pointer;
 }
 .rating-icon:focus{
     background-color: hsl(217, 12%, 63%);
@@ -89,11 +90,12 @@ body {
     letter-spacing: 1.4px;
     font-family: inherit;
     transition: 0.4s;
-    cursor: pointer;
+    
 }
 .btn:hover{
     background-color: white;
     color: hsl(25, 97%, 53%) ;
+    cursor: pointer;
 }
 .thank-you{
     text-align: center;
